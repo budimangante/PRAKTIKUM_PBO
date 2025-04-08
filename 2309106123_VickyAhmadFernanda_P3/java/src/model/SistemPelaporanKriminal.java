@@ -11,7 +11,6 @@ public class SistemPelaporanKriminal extends SistemPelaporan {
         this.JenisKejahatan = JenisKejahatan;
     }
 
-    @Override
     public void TampilkanData() {
         super.TampilkanData();
         System.out.println("Jenis Kejahatan: " + getJenisKejahatan());
